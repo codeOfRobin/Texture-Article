@@ -41,6 +41,10 @@ enum Styles {
 		static let channelTitle = style(from: Colors.channelTitle, font: UIFont.preferredFont(forTextStyle: .headline))
 		static let pound = style(from: Colors.secondaryTitle, font: UIFont.preferredFont(forTextStyle: .title3))
 		static let tag = style(from: Colors.tagTitle, font: UIFont.preferredFont(forTextStyle: .body))
+
+		static let messageSenderName = style(from: Colors.messageSenderName, font: UIFont.preferredFont(forTextStyle: .headline))
+		static let message = style(from: Colors.message, font: UIFont.preferredFont(forTextStyle: .body))
+		static let sentTime = style(from: Colors.sentTime, font: UIFont.preferredFont(forTextStyle: .footnote))
 	}
 
 	enum Colors {
@@ -50,5 +54,8 @@ enum Styles {
 		static let channelTitle = UIColor(red:1.00, green:1.00, blue:1.00, alpha:1.00)
 		static let secondaryTitle = UIColor(red:0.51, green:0.46, blue:0.51, alpha:1.00)
 		static let tagTitle = UIColor(red:0.37, green:0.42, blue:0.45, alpha:1.00)
+		static let messageSenderName = UIColor(red:0.17, green:0.18, blue:0.19, alpha:1.00)
+		static let message = UIColor(red:0.17, green:0.18, blue:0.18, alpha:1.00)
+		static let sentTime = UIColor(red:0.63, green:0.63, blue:0.64, alpha:1.00)
 	}
 }

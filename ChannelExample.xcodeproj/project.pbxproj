@@ -15,6 +15,8 @@
 		42275DA0208CF9350007F79C /* CountNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42275D9F208CF9350007F79C /* CountNode.swift */; };
 		42275DA2208D00920007F79C /* Styles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42275DA1208D00920007F79C /* Styles.swift */; };
 		42275DA4208D12CE0007F79C /* ChannelCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42275DA3208D12CE0007F79C /* ChannelCell.swift */; };
+		425EAFF6209635DC00FB8874 /* MessagesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 425EAFF5209635DC00FB8874 /* MessagesViewController.swift */; };
+		425EAFF82096389200FB8874 /* PostNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 425EAFF72096389200FB8874 /* PostNode.swift */; };
 		42C271EF208F4D1300E886BB /* AdminViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42C271EE208F4D1300E886BB /* AdminViewController.swift */; };
 		42C271F1208F4D7E00E886BB /* TagNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42C271F0208F4D7E00E886BB /* TagNode.swift */; };
 		42C271F6208F511200E886BB /* TagCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42C271F5208F511200E886BB /* TagCell.swift */; };
@@ -47,6 +49,8 @@
 		42275D9F208CF9350007F79C /* CountNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountNode.swift; sourceTree = "<group>"; };
 		42275DA1208D00920007F79C /* Styles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Styles.swift; sourceTree = "<group>"; };
 		42275DA3208D12CE0007F79C /* ChannelCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChannelCell.swift; sourceTree = "<group>"; };
+		425EAFF5209635DC00FB8874 /* MessagesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessagesViewController.swift; sourceTree = "<group>"; };
+		425EAFF72096389200FB8874 /* PostNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostNode.swift; sourceTree = "<group>"; };
 		42C271EE208F4D1300E886BB /* AdminViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdminViewController.swift; sourceTree = "<group>"; };
 		42C271F0208F4D7E00E886BB /* TagNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TagNode.swift; sourceTree = "<group>"; };
 		42C271F5208F511200E886BB /* TagCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TagCell.swift; sourceTree = "<group>"; };
@@ -105,6 +109,8 @@
 				42C271F0208F4D7E00E886BB /* TagNode.swift */,
 				42275D81208CDE290007F79C /* ViewController.swift */,
 				42275D9F208CF9350007F79C /* CountNode.swift */,
+				425EAFF5209635DC00FB8874 /* MessagesViewController.swift */,
+				425EAFF72096389200FB8874 /* PostNode.swift */,
 				42275DA1208D00920007F79C /* Styles.swift */,
 				42275DA3208D12CE0007F79C /* ChannelCell.swift */,
 				42275D86208CDE290007F79C /* Assets.xcassets */,
@@ -312,9 +318,11 @@
 				42C271EF208F4D1300E886BB /* AdminViewController.swift in Sources */,
 				42C271F1208F4D7E00E886BB /* TagNode.swift in Sources */,
 				42275D82208CDE290007F79C /* ViewController.swift in Sources */,
+				425EAFF6209635DC00FB8874 /* MessagesViewController.swift in Sources */,
 				42275DA0208CF9350007F79C /* CountNode.swift in Sources */,
 				42C271F6208F511200E886BB /* TagCell.swift in Sources */,
 				42275D80208CDE290007F79C /* AppDelegate.swift in Sources */,
+				425EAFF82096389200FB8874 /* PostNode.swift in Sources */,
 				42275DA2208D00920007F79C /* Styles.swift in Sources */,
 				42275DA4208D12CE0007F79C /* ChannelCell.swift in Sources */,
 			);
